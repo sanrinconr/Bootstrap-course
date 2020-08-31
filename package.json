@@ -1,0 +1,23 @@
+{
+  "name": "primeros-pasos-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "dev":"lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/coursera-bootstrap/primeros-pasos-npm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/coursera-bootstrap/primeros-pasos-npm/issues"
+  },
+  "homepage": "https://gitlab.com/coursera-bootstrap/primeros-pasos-npm#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
