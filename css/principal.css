@@ -2,8 +2,10 @@
   flex: 1 250px;
 }
 .card-caracteristicas{
-  flex: 1 120px;
-  margin: 15px;
+  flex: 1 1600px;
+  margin-left: 5rem;
+  margin-right: 5rem;
+
 }
 .jumbotron {
   background-color: orange;

@@ -45,18 +45,35 @@
                <li class="breadcrumb-item active" aria-current="page">Home</li>
             </ol>
          </nav>
-         <div class="d-flex flex-wrap">
-            <div class="flex-column  card-caracteristicas">
-               <h4>Calidad</h4>
-               <p>Lorem ipsum dolor sit amet</p>
+         <div class="row">
+            <div class="col">
+               <button type="button" class="btn btn-primary btn-block" data-toggle="collapse" data-target="#calidad" aria-controls="collapse1">Que calidad ofrecemos</button>
             </div>
-            <div class="flex-column card-caracteristicas">
-               <h4>Seguridad</h4>
-               <p>Lorem ipsum dolor sit amet, consectetur </p>
+            <div class="col">
+               <button type="button" class="btn btn-primary btn-block" data-toggle="collapse" data-target="#garantias" aria-controls="collapse2">Que garantias te damos?</button>
             </div>
-            <div class="flex-column card-caracteristicas">
-               <h4>Disponibilidad</h4>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing </p>
+            <div class="col">
+               <button type="button" class="btn btn-primary btn-block" data-toggle="collapse" data-target="#disponible" aria-controls="collapse3">Estamos disponibles?</button>
+            </div>
+         </div>
+         <div class="row">
+            <div id="calidad" class="col col-md-4 collapse mt-4 ">
+               <div class="d-flex justify-content-center">
+                  <h3>La mejor</h3>
+               </div>
+               <p>Ofrecemos los mejores estandares, animate a comprar!</p>
+            </div>
+            <div id="garantias" class="col col-md-4 collapse mt-4">
+               <div class="d-flex justify-content-center">
+                  <h3>El cliente tiene la razon</h3>
+               </div>
+               <p>Consideramos que el cliente siempre tiene la razon por lo cual te garantizamos todos nuestros servicios</p>
+            </div>
+            <div id="disponible" class="col col-md-4 collapse mt-4 ">
+               <div class="d-flex justify-content-center">
+                  <h3>Total</h3>
+               </div>
+               <p>Siempre contamos con habitaciones para ti y tu familia!</p>
             </div>
          </div>
          <div class="d-flex flex-wrap">
