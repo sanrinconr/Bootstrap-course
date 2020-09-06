@@ -1,6 +1,5 @@
 .card-hotel{
-  flex: 1 150px;
-  margin: 15px;
+  flex: 1 250px;
 }
 .card-caracteristicas{
   flex: 1 120px;
@@ -14,4 +13,7 @@ footer{
 }
 .elemento-footer{
   flex: 1 12px;
+}
+.btn-reserva{
+  border-radius:0px;
 }
