@@ -1,0 +1,38 @@
+$orange: #d49400;
+$gris: #D5D5D5;
+
+@mixin margenes($izquierda, $derecha){
+  margin-left:$izquierda;
+  margin-right:$derecha;
+}
+
+.card-hotel{
+  flex: 1 250px;
+}
+.card-caracteristicas{
+  flex: 1 1600px;
+  @include margenes(5rem,5rem);
+
+}
+.jumbotron {
+  background-color: $orange;
+}
+footer{
+  background-color: $orange;
+}
+.elemento-footer{
+  flex: 1 12px;
+}
+.btn-reserva{
+  border-radius:0px;
+}
+.btn-cotizar{
+  border-radius:100rem;
+}
+
+.carousel{
+  @include margenes(15rem,15rem);
+}
+.popover {background-color: $gris;}
+.popover.bottom .arrow::after {border-bottom-color: $gris; }
+.popover-content {background-color: $gris;}
