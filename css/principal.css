@@ -23,6 +23,10 @@ footer{
   border-radius:100rem;
 }
 
+.carousel{
+  margin-left: 15rem;
+  margin-right: 15rem;
+}
 .popover {background-color: #D5D5D5;}
 .popover.bottom .arrow::after {border-bottom-color: #D5D5D5; }
 .popover-content {background-color: #D5D5D5;}
