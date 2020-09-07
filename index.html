@@ -205,7 +205,7 @@
       <div class="container">
          <div class="row">
             <div class="col col-md-6">
-               <button class="btn btn-primary btn-block m-4" data-toggle="modal" data-target="#modalDatos">Contactanos</button>
+               <button id="btnContactanos" class="btn btn-primary btn-block m-4" data-toggle="modal" data-target="#modalDatos">Contactanos</button>
             </div>
          </div>
       </div>
@@ -307,7 +307,24 @@
       $(".carousel").carousel({
          interval: 2000
       })
+      $("#modalDatos").on('shown.bs.modal', function(e) {
+         $("#btnContactanos").addClass("btn-danger")
+         $("#btnContactanos").removeClass("btn-primary")
+         $("#btnContactanos").prop("disabled", true)
+         console.log("el modal se esta abriendo")
+      })
+      $("#modalDatos").on('show.bs.modal', function(e) {
+         console.log("el modal se abrio")
+      })
+      $("#modalDatos").on('hide.bs.modal', function(e) {
+         $("#btnContactanos").removeClass("btn-danger")
+         $("#btnContactanos").addClass("btn-warning")
+         $("#btnContactanos").prop("disabled", false)
 
+      })
+      $("#modalDatos").on('hidden.bs.modal', function(e) {
+         console.log("el modal se cerro")
+      })
    });
    </script>
 
