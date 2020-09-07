@@ -87,6 +87,9 @@
                   3 habitaciones disponibles
                </div>
                <button class="btn btn-success btn-block btn-reserva">Reservar <span class="oi oi-dollar"></span></button>
+               <div class="ml-2 mr-2 mt-1 mb-1">
+                  <button class="btn btn-warning btn-block btn-cotizar" data-toggle="modal" data-target="#modalCotizacion">Cotizar</button>
+               </div>
             </div>
             <div class="card m-2 d-flex flex-column justify-content-between card-hotel">
                <img class="card-img-top img-fluid" src="img/hotel.jpg" alt="Card image cap">
@@ -98,6 +101,9 @@
                   Habitaciones disponibles!
                </div>
                <button class="btn btn-success btn-block btn-reserva">Reservar <span class="oi oi-dollar"></span></button>
+               <div class="ml-2 mr-2 mt-1 mb-1">
+                  <button class="btn btn-warning btn-block btn-cotizar" data-toggle="modal" data-target="#modalCotizacion">Cotizar</button>
+               </div>
             </div>
             <div class="card m-2 d-flex flex-column justify-content-between card-hotel">
                <img class="card-img-top img-fluid" src="img/hotel.jpg" alt="Card image cap">
@@ -109,6 +115,9 @@
                   Unicamente 3 o mas habitaciones
                </div>
                <button class="btn btn-success btn-block btn-reserva">Reservar <span class="oi oi-dollar"></span></button>
+               <div class="ml-2 mr-2 mt-1 mb-1">
+                  <button class="btn btn-warning btn-block btn-cotizar" data-toggle="modal" data-target="#modalCotizacion">Cotizar</button>
+               </div>
             </div>
             <div class="card m-2 d-flex flex-column justify-content-between card-hotel">
                <img class="card-img-top img-fluid" src="img/hotel.jpg" alt="Card image cap">
@@ -120,6 +129,9 @@
                   5 habitaciones disponibles
                </div>
                <button class="btn btn-success btn-block btn-reserva">Reservar <span class="oi oi-dollar"></span></button>
+               <div class="ml-2 mr-2 mt-1 mb-1">
+                  <button class="btn btn-warning btn-block btn-cotizar" data-toggle="modal" data-target="#modalCotizacion">Cotizar</button>
+               </div>
             </div>
             <div class="card m-2 d-flex flex-column justify-content-between card-hotel">
                <img class="card-img-top img-fluid" src="img/hotel.jpg" alt="Card image cap">
@@ -131,6 +143,9 @@
                   Solo empresas
                </div>
                <button class="btn btn-success btn-block btn-reserva">Reservar <span class="oi oi-dollar"></span></button>
+               <div class="ml-2 mr-2 mt-1 mb-1">
+                  <button class="btn btn-warning btn-block btn-cotizar" data-toggle="modal" data-target="#modalCotizacion">Cotizar</button>
+               </div>
             </div>
             <div class="card m-2 d-flex flex-column justify-content-between card-hotel">
                <img class="card-img-top img-fluid" src="img/hotel.jpg" alt="Card image cap">
@@ -142,6 +157,9 @@
                   Solo parejas
                </div>
                <button class="btn btn-success btn-block btn-reserva">Reservar <span class="oi oi-dollar"></span></button>
+               <div class="ml-2 mr-2 mt-1 mb-1">
+                  <button class="btn btn-warning btn-block btn-cotizar" data-toggle="modal" data-target="#modalCotizacion">Cotizar</button>
+               </div>
             </div>
             <div class="card m-2 d-flex flex-column justify-content-between card-hotel">
                <img class="card-img-top img-fluid" src="img/hotel.jpg" alt="Card image cap">
@@ -153,9 +171,42 @@
                   Solo queda 1 habitacion!
                </div>
                <button class="btn btn-success btn-block btn-reserva">Reservar <span class="oi oi-dollar"></span></button>
+               <div class="ml-2 mr-2 mt-1 mb-1">
+                  <button class="btn btn-warning btn-block btn-cotizar" data-toggle="modal" data-target="#modalCotizacion">Cotizar</button>
+               </div>
             </div>
          </div>
       </div>
+
+      <div class="modal fade" id="modalCotizacion">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h4 class="modal-title">Cotizaciones</h4>
+                  <button type="button" data-dismiss="modal" class="close"><span aria-hidden="true">&times;</span></button>
+               </div>
+               <div class="modal-body">
+                  <div class="container">
+                     <form action="">
+                        <div class="form-group row">
+                           <label for="nombreCotizacion">Nombre:</label>
+                           <input class="form-control" type="text" id="nombreCotizacion">
+                        </div>
+                        <div class="form-group row">
+                           <label for="hotelCotizacion">Hotel de interes:</label>
+                           <input class="form-control" type="text" id="hotelCotizacion">
+                        </div>
+                     </form>
+                  </div>
+               </div>
+               <div class="modal-footer">
+                  <button class="btn btn-success" data-dismiss="modal" class="close">Enviar</button>
+               </div>
+            </div>
+         </div>
+      </div>
+
+
       <footer class="mt-3">
          <div class="container">
             <div class="d-flex">
