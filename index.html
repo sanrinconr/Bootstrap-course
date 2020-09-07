@@ -80,7 +80,7 @@
             <div class="card m-2 d-flex flex-column justify-content-between card-hotel">
                <img class="card-img-top img-fluid" src="img/hotel.jpg" alt="Card image cap">
                <div class="card-body">
-                  <h4 class="card-title">Hotel 1</h4>
+                  <h4 class="card-title" data-toggle="tooltip" data-placement="left" title="Frente a la playa!">Hotel 1</h4>
                   <p class="card-text">El mejor ubicado frente a una playa privada</p>
                </div>
                <div class="card-footer text-muted">
@@ -170,7 +170,7 @@
                <div class="card-footer text-muted">
                   Solo queda 1 habitacion!
                </div>
-               <button class="btn btn-success btn-block btn-reserva">Reservar <span class="oi oi-dollar"></span></button>
+               <button class="btn btn-success btn-block btn-reserva">Reservar <span class=" oi oi-dollar"></span></button>
                <div class="ml-2 mr-2 mt-1 mb-1">
                   <button class="btn btn-warning btn-block btn-cotizar" data-toggle="modal" data-target="#modalCotizacion">Cotizar</button>
                </div>
@@ -189,12 +189,13 @@
                   <div class="container">
                      <form action="">
                         <div class="form-group row">
-                           <label for="nombreCotizacion">Nombre:</label>
-                           <input class="form-control" type="text" id="nombreCotizacion">
+                           <label for="nombreCotizacion">Nombre</label>
+                           <input class="form-control" data-toggle="popover" placeholder="Aqui se encuentran los popover" data-placement="top" data-title="Ojo!" data-content="No olvides tu apellido :)" type="text" id="nombreCotizacion">
                         </div>
                         <div class="form-group row">
                            <label for="hotelCotizacion">Hotel de interes:</label>
-                           <input class="form-control" type="text" id="hotelCotizacion">
+                           <input class="form-control" data-toggle="popover" placeholder="Aqui se encuentran los popover" data-placement="top" data-title="Ojo!" data-content="Incluye el numero de habitaciones a alquilar" data-type="text"
+                             id="hotelCotizacion">
                         </div>
                      </form>
                   </div>
@@ -237,7 +238,16 @@
    </body>
    <!--JS JQUERY -->
    <script src="node_modules/jquery/dist/jquery.min.js" charset="utf-8"></script>
-   <script src="node_modules/popper.js/dist/popper.min.js" charset="utf-8"></script>
+   <script src="node_modules/popper.js/dist/umd/popper.min.js" charset="utf-8"></script>
    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" charset="utf-8"></script>
+
+
+   <script>
+   $(function() {
+      $("[data-toggle='tooltip']").tooltip();
+      $("[data-toggle='popover']").popover();
+
+   });
+   </script>
 
 </html>

@@ -22,3 +22,7 @@ footer{
 .btn-cotizar{
   border-radius:100rem;
 }
+
+.popover {background-color: #D5D5D5;}
+.popover.bottom .arrow::after {border-bottom-color: #D5D5D5; }
+.popover-content {background-color: #D5D5D5;}
