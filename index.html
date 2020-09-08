@@ -7,7 +7,7 @@
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
       <!-- CSS -->
-      <!-- build:css css/index.css -->
+      <!-- build:css css/main.css -->
       <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
       <link rel="stylesheet" href="css/style.css">
       <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
@@ -297,39 +297,12 @@
       </footer>
    </body>
    <!--JS JQUERY -->
-   <!-- build:js js/index.js -->
+   <!-- build:js js/main.js -->
    <script src="node_modules/jquery/dist/jquery.min.js" charset="utf-8"></script>
    <script src="node_modules/popper.js/dist/umd/popper.min.js" charset="utf-8"></script>
    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" charset="utf-8"></script>
+   <script src="js/index.js"></script>
 
-
-   <script>
-   $(function() {
-      $("[data-toggle='tooltip']").tooltip();
-      $("[data-toggle='popover']").popover();
-      $(".carousel").carousel({
-         interval: 2000
-      })
-      $("#modalDatos").on('shown.bs.modal', function(e) {
-         $("#btnContactanos").addClass("btn-danger")
-         $("#btnContactanos").removeClass("btn-primary")
-         $("#btnContactanos").prop("disabled", true)
-         console.log("el modal se esta abriendo")
-      })
-      $("#modalDatos").on('show.bs.modal', function(e) {
-         console.log("el modal se abrio")
-      })
-      $("#modalDatos").on('hide.bs.modal', function(e) {
-         $("#btnContactanos").removeClass("btn-danger")
-         $("#btnContactanos").addClass("btn-primary")
-         $("#btnContactanos").prop("disabled", false)
-
-      })
-      $("#modalDatos").on('hidden.bs.modal', function(e) {
-         console.log("el modal se cerro")
-      })
-   });
-   </script>
    <!-- endbuild -->
 
 

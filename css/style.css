@@ -1,35 +1,46 @@
 .card-hotel {
-  flex: 1 250px; }
+  flex: 1 250px;
+}
 
 .card-caracteristicas {
   flex: 1 1600px;
   margin-left: 5rem;
-  margin-right: 5rem; }
+  margin-right: 5rem;
+}
 
 .jumbotron {
-  background-color: #d49400; }
+  background-color: #d49400;
+}
 
 footer {
-  background-color: #d49400; }
+  background-color: #d49400;
+}
 
 .elemento-footer {
-  flex: 1 12px; }
+  flex: 1 12px;
+}
 
 .btn-reserva {
-  border-radius: 0px; }
+  border-radius: 0px;
+}
 
 .btn-cotizar {
-  border-radius: 100rem; }
+  border-radius: 100rem;
+}
 
 .carousel {
   margin-left: 15rem;
-  margin-right: 15rem; }
+  margin-right: 15rem;
+}
 
 .popover {
-  background-color: #D5D5D5; }
+  background-color: #D5D5D5;
+}
 
 .popover.bottom .arrow::after {
-  border-bottom-color: #D5D5D5; }
+  border-bottom-color: #D5D5D5;
+}
 
 .popover-content {
-  background-color: #D5D5D5; }
+  background-color: #D5D5D5;
+}

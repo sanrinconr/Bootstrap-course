@@ -25,16 +25,24 @@
   },
   "homepage": "https://gitlab.com/coursera-bootstrap/primeros-pasos-npm#readme",
   "devDependencies": {
+    "browser-sync": "^2.26.12",
     "copyfiles": "^2.3.0",
     "cssmin": "^0.4.3",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-flatmap": "^1.0.2",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-rev": "^9.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-usemin": "^0.3.30",
     "htmlmin": "0.0.7",
     "imagemin-cli": "^6.0.0",
     "lite-server": "^2.5.4",
     "node-sass": "^4.14.1",
-    "onchange": "^7.0.2",
-    "rimraf": "^3.0.2",
-    "uglifyjs": "^2.4.11",
-    "usemin-cli": "^0.6.0"
+    "onchange": "^7.0.2"
   },
   "dependencies": {
     "bootstrap": "^4.5.2",
