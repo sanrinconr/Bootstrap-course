@@ -7,8 +7,10 @@
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
       <!-- CSS -->
+      <!-- build:css css/contacto.css -->
       <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-      <link rel="stylesheet" href="css/principal.css">
+      <link rel="stylesheet" href="css/style.css">
+      <!-- endbuild -->
 
       <title>Principal</title>
    </head>
@@ -40,30 +42,30 @@
             </ol>
          </nav>
          <h2>Contactanos!</h2>
-         <form>
+         <form action="">
             <div class="form-row">
                <div class="form-group col">
-                  <label for"nombre">Nombre</label>
+                  <label for="nombre">Nombre</label>
                   <input id="nombre" type="text" class="form-control" placeholder="Ingresa tu nombre">
                </div>
                <div class="form-group col">
-                  <label for"apellido">Apellido</label>
+                  <label for="apellido">Apellido</label>
                   <input id="apellido" type="text" class="form-control" placeholder="Ingresa tu apelido">
                </div>
             </div>
             <div class="form-row">
                <div class="form-group col">
-                  <label for"email">Email</label>
+                  <label for="email">Email</label>
                   <input id="email" type="text" class="form-control" placeholder="Ingresa tu email">
                </div>
             </div>
             <div class="form-row">
                <div class="form-group col col-md-8">
-                  <label for"direccion">Direccion</label>
+                  <label for="direccion">Direccion</label>
                   <input id="direccion" type="text" class="form-control" placeholder="Ingresa tu direccion">
                </div>
                <div class="form-group col col-md-4">
-                  <label for"direccion">Provincia</label>
+                  <label for="direccion">Provincia</label>
                   <select class="form-control" id="direccion">
                      <option>A</option>
                      <option>B</option>
@@ -73,8 +75,8 @@
             </div>
             <div class="form-row">
                <div class="form-group col">
-                  <label for"comentario">Comentario</label>
-                  <textarea id="comentario" class="form-control" rows="8" cols="80"></textarea>
+                  <label for="nombre">Click me</label>
+                  <input id="nombre" type="text" class="form-control" placeholder="Ingresa tu nombre">
                </div>
             </div>
             <div class="form-row">
@@ -120,9 +122,10 @@
          </div>
       </footer>
    </body>
-   <!--JS JQUERY -->
+   <!-- build:js js/contacto.js -->
    <script src="node_modules/jquery/dist/jquery.min.js" charset="utf-8"></script>
-   <script src="node_modules/popper.js/dist/popper.min.js" charset="utf-8"></script>
+   <script src="node_modules/popper.js/dist/umd/popper.min.js" charset="utf-8"></script>
    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" charset="utf-8"></script>
+   <!-- endbuild -->
 
 </html>
